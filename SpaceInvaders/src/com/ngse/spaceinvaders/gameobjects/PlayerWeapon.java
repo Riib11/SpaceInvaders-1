@@ -8,10 +8,7 @@ package com.ngse.spaceinvaders.gameobjects;
 //getWeaponType() and setWeaponType() will return and set the weapon's current type, respectively
 
 public class PlayerWeapon {
-	//superficial change
-	
-	
-	
+
 	//defines the number values of each weapon type
 	//the order of the weapons' values is the order in which they will be obtained through upgrading
 	//nothing can be less than BASIC or more than ULTIMATE
