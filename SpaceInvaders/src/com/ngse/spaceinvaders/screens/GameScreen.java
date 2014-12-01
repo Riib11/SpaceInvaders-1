@@ -196,7 +196,8 @@ public class GameScreen extends Screen {
 		repaint();
 
 		GameClock++;
-
+		
+		// Test out adding Aliens 
 		if (GameClock % 50 == 0) {
 			gamescreen.aliens.add(new Alien(0, 100, Config.ALIEN_SPEED, 0, 0));
 			gamescreen.aliens.add(new Alien(50, 150, Config.ALIEN_SPEED * 2, 0,
@@ -204,6 +205,7 @@ public class GameScreen extends Screen {
 			gamescreen.aliens.add(new Alien(100, 200, Config.ALIEN_SPEED * 3,
 					0, 2));
 		}
+		
 	}
 
 	// GameLogics
